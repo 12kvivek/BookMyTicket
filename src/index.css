@@ -11,3 +11,170 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.navbar {
+  background-color: #000000; 
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left; 
+  display: block; 
+  color: rgba(239, 239, 239, 0.91); 
+  font-weight: 300;
+  text-align: center; 
+  padding: 14px 16px; 
+  text-decoration: none; 
+}
+.navbar img{
+  height: 30px;
+}
+.navbar a:hover {
+  transform: scale(1.2);
+  color: rgb(255, 255, 255);
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Make the list items flex items */
+}
+
+.nav-list li {
+  margin-right: 10px; /* Adjust the margin to control spacing between navbar items */
+}
+
+.nav-item-right {
+  margin-left: auto; /* Push the "Contact" item to the right */
+}
+
+.navbar button{
+  background-color: red;
+  color: #fff;
+  border: none;
+
+}
+
+.heading{
+ margin: 20px;
+ font-size: 30px;
+ font-weight: 600;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+  border-radius: 5px;
+  overflow: hidden;
+  float: left;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+
+.card-content a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.card a{
+  text-decoration: none;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.card a:visited{
+  color: black;
+}
+
+.big-img{
+  margin: 1%;
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+}
+.big-img img{
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.803);
+  max-width: 80%;
+  height: auto;
+}
+
+.desc{
+  width: 80%;
+  margin-left: 10%;
+}
+
+.desc h2{
+  text-align: center;
+  font-weight: 900;
+  font-size: 300%;
+  background-color: #000000;
+  -webkit-background-clip: text; 
+  background-clip: text;
+  color: transparent;
+}
+
+.desc h3{
+  font-size: 100%;
+}
+
+.line hr{
+  background-color: #000000;
+  
+}
+
+.show-btn{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.show-btn button{
+  margin-right: 10px;
+  box-shadow: 5px 0px 5px #333;
+  font-weight: bold;
+  background-color: #000000;
+  color: #fff;
+}
+
+.show-btn button:hover{
+  transform: scale(1.1);
+}
+
+.show{
+  font-size: 150%;
+  font-weight: 900;
+  text-align: center;
+}
+
+.lg{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.login{
+  width: fit-content;
+  box-shadow: 10px 0px 10px #000000;
+  border: 2px solid ;
+}
