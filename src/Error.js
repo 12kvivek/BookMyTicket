@@ -15,7 +15,7 @@ const Error = () => {
       <div class = "line"><hr /></div>
       <div class="show">SHOWS</div>
       <div class="show-btn">
-        <button>12:00 PM</button>
+        <a href="/seat"><button>12:00 PM</button></a>
 
         <button>3:00 PM</button>
 
